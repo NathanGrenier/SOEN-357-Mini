@@ -37,14 +37,14 @@ include:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 
 # Plugins (previously gems:)
 plugins:
@@ -64,7 +64,7 @@ author:
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
     #   url: "https://"
-    - label: "Figma Prototype"
+    - label: "Figma Prototypes"
       icon: "fa-brands fa-figma"
       url: "https://www.figma.com/design/VNZzTFGUborc8Uvylvo2dC/Prototypes?node-id=20-1987&t=pN5y5PAPDW3jF4L7-1"
     - label: "Figma User Personas"

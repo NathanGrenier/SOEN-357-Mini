@@ -1,27 +1,23 @@
-# Minimal Mistakes remote theme starter
+# About
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+[![Deploy Jekyll site to Pages](https://github.com/NathanGrenier/SOEN-357-Mini/actions/workflows/github_pages.yaml/badge.svg?branch=master)](https://github.com/NathanGrenier/SOEN-357-Mini/actions/workflows/github_pages.yaml)
 
-Contains basic configuration to get you a site with:
+This repository contains the documentation and design process for a Health Companion Super App, created as part of Concordia University's SOEN 357 User Interface Design course. The site is built with Jekyll using the Minimal Mistakes theme and documents the complete UI/UX design process including:
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+- User Research & Key Findings
+- User Personas
+- User Journey Maps
+- Design System & Principles
+- Wireframes & Prototypes
+- Usability Testing Results
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+## View the Project
 
----
+You can view the complete design process blog post at: https://soen357-mini.ngrenier.com
 
-## Troubleshooting
+## Technology Stack
 
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
-
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+- Jekyll static site generator
+- Minimal Mistakes theme
+- GitHub Pages for hosting
+- Figma for prototypes and design assets
