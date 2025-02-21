@@ -13,14 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
+title: SOEN 357 Mini Project
+email: nathangrenier01@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
+  This page was made to host blog posts about the mini project for Concordia's SOEN 357 User Interface Design Course.
+github_username: NathanGrenier
 minimal_mistakes_skin: default
 search: true
 
@@ -31,7 +28,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Canada/Eastern # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -56,36 +53,34 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-remote-theme
 
 author:
-  name   : "First Lastname"
+  name   : "Nathan Grenier"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Third Year Software Engineering Student at Concordia University"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://"
+    - label: "Figma Prototype"
+      icon: "fa-brands fa-figma"
+      url: "https://www.figma.com/design/VNZzTFGUborc8Uvylvo2dC/Prototypes?node-id=20-1987&t=pN5y5PAPDW3jF4L7-1"
+    - label: "Figma User Personas"
+      icon: "fa-brands fa-figma"
+      url: "https://www.figma.com/board/8aKtgnHVLFzGfnBt6miREo/User-Personas?node-id=0-1&t=TgFMl9tZ5ph4yiuV-1"
+    - label: "Figma User Journey Map"
+      icon: "fa-brands fa-figma"
+      url: "https://www.figma.com/board/OoeyaqiEbeca7exafm9PR9/User-Journey-Maps?node-id=0-1&t=amALUSS4h1HAijSH-1"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/NathanGrenier/SOEN-357-Mini"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/NathanGrenier/SOEN-357-Mini"
 
 defaults:
   # _posts
