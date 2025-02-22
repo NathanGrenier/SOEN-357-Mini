@@ -1,9 +1,11 @@
 ---
 title: "The Design Process of a Health Companion Super App"
 date: 2025-02-20T15:34:30-04:00
-# header:
-#   image: /assets/images/header.jpg
-#   caption: "Photo credit: [**Unsplash**](https://unsplash.com/photos/a-close-up-of-a-piece-of-paper-xzzgY__zX8A)"
+header:
+  overlay_image: /assets/images/header.jpg
+  overlay_filter: linear-gradient(rgba(44, 62, 80, 0.7), rgba(0, 0, 0, 0.6))
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com/photos/a-close-up-of-a-piece-of-paper-xzzgY__zX8A)"
+  show_overlay_excerpt: false
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
@@ -161,7 +163,7 @@ The design system for the Health Companion Super App was carefully crafted to en
 
 My design choices focus on creating a calming, professional healthcare environment while maintaining excellent readability and visual hierarchy. The following key design elements form the foundation of the user interface:
 
-## Color Palate
+## Color Palette
 The color scheme was carefully selected to create a calming and trustworthy healthcare environment while ensuring optimal accessibility. 
 
 The <span style="color:#4A90E2">soft blue</span> primary color conveys professionalism and reliability, while the <span style="color:#50E3C2">soft cyan</span> and <span style="color:#7ED321">light green</span> accents add a fresh, modern touch that promotes wellness. 
@@ -173,7 +175,7 @@ These colors maintain WCAG 2.1 compliance for accessibility while creating visua
 - **Accent:** <span style="color:#7ED321">Light Green</span> (`#7ED321`)
 - **Background:** <span style="color:#FFFFFF;background-color:#666666">White</span> (`#FFFFFF`)
 
-<img src="/assets/images/Color_Palate.png" alt="Health Companion Super App Color Palate" title="Health Companion Super App Color Palate" style="border: 1px solid #ddd;">
+<img src="/assets/images/Color_Palette.png" alt="Health Companion Super App Color Palette" title="Health Companion Super App Color Palette" style="border: 1px solid #ddd;">
 
 ## Typography
 Typography plays a crucial role in any mobile app's accessibility and readability. I chose Roboto for its clean, modern appearance and excellent legibility across different screen sizes. 
