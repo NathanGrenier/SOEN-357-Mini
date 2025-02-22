@@ -233,15 +233,60 @@ The following sections showcase the screens that make up the final prototype.
 
 {% include gallery layout="half" id="gallery-final-prototype" caption="Final Prototype" %}
 
-<!-- # Usability Testing
+# Usability Testing
+## Putting the App to the Test  
+No matter how polished a prototype looks, real user feedback is what makes or breaks a design. For the Health Companion Super App usability testing wasn’t just a checkbox, it was a critical step to ensure the app truly served its users. Here’s how I approached it.  
 
-## Insights from User Feedback
-- **Valued Features:**  
-  Users consistently highlighted the importance of medication reminders, self-monitoring aids, and intuitive interfaces.
+### Defining Goals and Tasks  
+I focused on three core goals:  
+1. **Simplifying Onboarding:** Could users with limited digital literacy easily register and input medical details?  
+2. **Validating Core Features:** Were setting reminders, booking appointments, and messaging providers intuitive?  
+3. **Clarity in Data Visualization:** Could users understand their health metrics at a glance?  
 
-- **Identified Challenges:**  
-  - Navigation difficulties and insufficient guidance were common concerns.
-  - Limited digital literacy among some users highlighted the need for personalized onboarding and simple, clear instructions.
+---
 
-- **Implications:**  
-  These findings confirmed for me that a successful mHealth app must be intuitive and accessible, offering personalized content and robust support that can adapt to the diverse needs of its users. -->
+To test these, I designed scenario-based tasks mirroring real-life use:  
+- Creating a profile with chronic condition details.  
+- Setting a daily medication reminder.  
+- Booking, then rescheduling, a doctor’s appointment.  
+- Sending a message to a healthcare provider.  
+- Interpreting dashboard stats like blood pressure trends.  
+
+### Gathering Real-World Insights  
+I recruited a diverse group reflecting our personas to test both in-person and remotely. This included older adults, caregivers, and tech-savvy organizers. During sessions, I asked participants to *"think aloud"* while completing tasks, observing where they hesitated or struggled.  
+
+---
+
+Feedback came from multiple angles:
+- **Live Reactions:** Hearing users vocalize confusion during tasks (e.g., `"Where’s the ‘reschedule’ button?"`).  
+- **Post-Test Surveys:** Ratings on ease of use and clarity.  
+- **Follow-Up Interviews:** Deeper dives into pain points, like unclear terminology in the scheduling flow.  
+
+### Learning and Iterating  
+After each test, I categorized issues by severity and frequency. For example:  
+- Many users missed the rescheduling button (*critical flaw*).  
+- Others found the dashboard charts overwhelming.  
+
+This led to rapid cycles of:  
+1. **Redesigning Problematic Flows** (e.g., adding a prominent `"Reschedule"` option).  
+2. **Simplifying Data Visualizations** with clearer labels and progressive disclosure.  
+3. **Retesting** to confirm fixes worked.  
+
+**One key takeaway?** Even small tweaks, like swapping medical jargon for plain language, dramatically improved usability for older adults.
+
+# Reflection  
+Designing the Health Companion Super App taught me how deeply user insights can transform a product, and how humbling it is to realize your first draft is never the final answer. Here’s what I learned along the way.  
+
+## Learning from Real Users  
+Through interviews, surveys, and focus groups, I discovered just how varied user needs could be. For example:  
+- **Digital literacy gaps** shaped my approach: I streamlined onboarding with bite-sized forms and added guided tutorials after hearing users describe registration as "overwhelming."
+- **Personas became my compass.** "The Overwhelmed Patient" reminded me to prioritize clear language, while "The Disconnected" pushed me to simplify navigation for users anxious about complex interfaces.  
+
+## When Testing Reveals Blind Spots  
+Usability testing was a reality check. Watching users struggle with the appointment scheduler, a feature I’d assumed was intuitive, forced me to rethink my assumptions. Key takeaways:  
+- **Clarity Trumps Cleverness:** Charts I designed to be "comprehensive" were seen as cluttered. This resulted in me simplifying their design to eliminate any unnecessary clutter.
+
+## Balancing Complexity and Simplicity  
+The biggest challenge? Building a feature-rich app that still felt simple. For example:  
+- **Voice-assisted features** emerged as a solution for low-literacy users during testing.  
+- **Iteration saved the day:** Every round of feedback led to small tweaks, like swapping medical jargon ("hypertension") for plain language ("high blood pressure").  
