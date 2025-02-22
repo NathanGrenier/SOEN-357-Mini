@@ -109,7 +109,7 @@ gallery-final-prototype:
 ---
 
 # Introduction
-Welcome to the behind-the-scenes journey into the making of the Health Companion Super App! In this blog post, I'll be pulling back the curtain on the UI/UX design process, from early user research and persona creation to the nitty-gritty of prototyping and usability testing. This isn’t just a dry report; it’s a story of transforming complex healthcare challenges into an intuitive, engaging mobile experience. 
+Welcome to the behind-the-scenes journey into the making of the Health Companion Super App! In this blog post, I'll be pulling back the curtain on the UI/UX design process, from early user research and persona creation to the nitty-gritty of prototyping and usability testing. This isn't just a dry report; it's a story of transforming complex healthcare challenges into an intuitive, engaging mobile experience. 
 
 This app is designed to empower individuals with chronic conditions by helping them manage their medications, schedule doctor appointments, and securely communicate with healthcare professionals all with ease and clarity. Join me as I share my creative process, the challenges I faced, and the insights that drove my design decisions, giving you a closer look at how I developed a truly user-centered healthcare solution.
 
@@ -226,7 +226,7 @@ After iterating on our initial wireframes, I developed the final prototype of th
 
 Notably, the final prototype includes:
 - **Health Metrics Monitoring:** A dedicated module that continuously tracks and displays vital health metrics, giving users clear insights into their progress over time.
-- **Splash Screen:** A welcoming splash screen that establishes the app’s calm and accessible visual language, setting the tone from the first interaction.
+- **Splash Screen:** A welcoming splash screen that establishes the app's calm and accessible visual language, setting the tone from the first interaction.
 - **Interactive Health Metric Visualization:** Dynamic, engaging visualizations that allow users to interact with and interpret their health data easily.
 
 The following sections showcase the screens that make up the final prototype.
@@ -235,7 +235,7 @@ The following sections showcase the screens that make up the final prototype.
 
 # Usability Testing
 ## Putting the App to the Test  
-No matter how polished a prototype looks, real user feedback is what makes or breaks a design. For the Health Companion Super App usability testing wasn’t just a checkbox, it was a critical step to ensure the app truly served its users. Here’s how I approached it.  
+No matter how polished a prototype looks, real user feedback is what makes or breaks a design. For the Health Companion Super App usability testing wasn't just a checkbox, it was a critical step to ensure the app truly served its users. Here's how I approached it.  
 
 ### Defining Goals and Tasks  
 I focused on three core goals:  
@@ -248,7 +248,7 @@ I focused on three core goals:
 To test these, I designed scenario-based tasks mirroring real-life use:  
 - Creating a profile with chronic condition details.  
 - Setting a daily medication reminder.  
-- Booking, then rescheduling, a doctor’s appointment.  
+- Booking, then rescheduling, a doctor's appointment.  
 - Sending a message to a healthcare provider.  
 - Interpreting dashboard stats like blood pressure trends.  
 
@@ -258,7 +258,7 @@ I recruited a diverse group reflecting our personas to test both in-person and r
 ---
 
 Feedback came from multiple angles:
-- **Live Reactions:** Hearing users vocalize confusion during tasks (e.g., `"Where’s the ‘reschedule’ button?"`).  
+- **Live Reactions:** Hearing users vocalize confusion during tasks (e.g., `"Where's the 'reschedule' button?"`).  
 - **Post-Test Surveys:** Ratings on ease of use and clarity.  
 - **Follow-Up Interviews:** Deeper dives into pain points, like unclear terminology in the scheduling flow.  
 
@@ -275,7 +275,7 @@ This led to rapid cycles of:
 **One key takeaway?** Even small tweaks, like swapping medical jargon for plain language, dramatically improved usability for older adults.
 
 # Reflection  
-Designing the Health Companion Super App taught me how deeply user insights can transform a product, and how humbling it is to realize your first draft is never the final answer. Here’s what I learned along the way.  
+Designing the Health Companion Super App taught me how deeply user insights can transform a product, and how humbling it is to realize your first draft is never the final answer. Here's what I learned along the way.  
 
 ## Learning from Real Users  
 Through interviews, surveys, and focus groups, I discovered just how varied user needs could be. For example:  
@@ -283,7 +283,7 @@ Through interviews, surveys, and focus groups, I discovered just how varied user
 - **Personas became my compass.** "The Overwhelmed Patient" reminded me to prioritize clear language, while "The Disconnected" pushed me to simplify navigation for users anxious about complex interfaces.  
 
 ## When Testing Reveals Blind Spots  
-Usability testing was a reality check. Watching users struggle with the appointment scheduler, a feature I’d assumed was intuitive, forced me to rethink my assumptions. Key takeaways:  
+Usability testing was a reality check. Watching users struggle with the appointment scheduler, a feature I'd assumed was intuitive, forced me to rethink my assumptions. Key takeaways:  
 - **Clarity Trumps Cleverness:** Charts I designed to be "comprehensive" were seen as cluttered. This resulted in me simplifying their design to eliminate any unnecessary clutter.
 
 ## Balancing Complexity and Simplicity  
